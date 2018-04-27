@@ -1,0 +1,2108 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="studying note">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Note">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Note">
+<meta property="og:description" content="studying note">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Note">
+<meta name="twitter:description" content="studying note">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>Note</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Note</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/27/工作周报（20180427）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/27/工作周报（20180427）/" itemprop="url">工作周报（20180427）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-27T15:23:01+08:00">
+                2018-04-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一周工作简述"><a href="#一周工作简述" class="headerlink" title="一周工作简述"></a>一周工作简述</h3><h4 id="一：本周工作情况"><a href="#一：本周工作情况" class="headerlink" title="一：本周工作情况"></a>一：本周工作情况</h4><ol>
+<li>练习python相关程序</li>
+<li>论文<a href="https://www.researchgate.net/publication/220215252_Ontology-based_curriculum_content_sequencing_system_with_semantic_rules" target="_blank" rel="external">Ontology-based curriculum content sequencing system with semantic rules</a>的学习</li>
+<li>学习ES6</li>
+</ol>
+<h4 id="二：-遇到的困难与问题"><a href="#二：-遇到的困难与问题" class="headerlink" title="二： 遇到的困难与问题"></a>二： 遇到的困难与问题</h4><ol>
+<li>论文中提到的SWRL+JESS规则推理的执行</li>
+<li>Neo4j打开失败问题</li>
+</ol>
+<h4 id="三：下周工作计划"><a href="#三：下周工作计划" class="headerlink" title="三：下周工作计划"></a>三：下周工作计划</h4><ol>
+<li>继续阅读知识图谱的相关论文</li>
+<li>学习如何进行知识抽取</li>
+</ol>
+<h4 id="相关成果"><a href="#相关成果" class="headerlink" title="相关成果"></a>相关成果</h4><p><a href="https://pan.baidu.com/s/1n-Ww02rdsS-dA7OFRYD0OQ" target="_blank" rel="external">论文的ppt汇报</a><br>[TTL文本解析的问题](<a href="http://blog.csdn.net/px1012/article/details/78299098" target="_blank" rel="external">http://blog.csdn.net/px1012/article/details/78299098</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/17/工作周报-2017-11-11-2017-11-17/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/17/工作周报-2017-11-11-2017-11-17/" itemprop="url">工作周报(2017.11.11-2017.11.17)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-17T21:55:34+08:00">
+                2017-11-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一周工作简述"><a href="#一周工作简述" class="headerlink" title="一周工作简述"></a>一周工作简述</h3><h4 id="一：本周工作情况"><a href="#一：本周工作情况" class="headerlink" title="一：本周工作情况"></a>一：本周工作情况</h4><ol>
+<li>继续学习python基础和知识图谱相关知识</li>
+<li>学会不用</li>
+<li>本体的相关语言的学习</li>
+</ol>
+<h4 id="二：-遇到的困难与问题"><a href="#二：-遇到的困难与问题" class="headerlink" title="二： 遇到的困难与问题"></a>二： 遇到的困难与问题</h4><ol>
+<li>python语言编辑工具pycharm的安装问题</li>
+<li>TTL文件格式用Apache Jena解析的问题</li>
+<li>google浏览器使用过程中显示你连接不是私密连接问题</li>
+</ol>
+<h4 id="三：下周工作计划"><a href="#三：下周工作计划" class="headerlink" title="三：下周工作计划"></a>三：下周工作计划</h4><ol>
+<li>不用任何语言对本体这个概念进行描述</li>
+<li>继续学习python语言和jena这个java包的使用问题</li>
+</ol>
+<h4 id="相关成果"><a href="#相关成果" class="headerlink" title="相关成果"></a>相关成果</h4><p><a href="http://pengxiao1012.cn/2017/11/10/python%E8%AF%AD%E8%A8%80%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/" target="_blank" rel="external">pycharm的安装问题</a><br>[TTL文本解析的问题](<a href="http://blog.csdn.net/px1012/article/details/78299098" target="_blank" rel="external">http://blog.csdn.net/px1012/article/details/78299098</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/10/python语言编辑工具pycharm的安装问题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/10/python语言编辑工具pycharm的安装问题/" itemprop="url">python语言编辑工具pycharm的安装问题</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-10T10:49:34+08:00">
+                2017-11-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/solve/" itemprop="url" rel="index">
+                    <span itemprop="name">solve</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h5 id="pycharm是python语言一个很好的编译器，PyCharm是一种Python-IDE，带有一整套可以帮助用户在使用Python语言开发时提高其效率的工具，比如调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制。此外，该IDE提供了一些高级功能，以用于支持Django框架下的专业Web开发。安装及破解过程如下："><a href="#pycharm是python语言一个很好的编译器，PyCharm是一种Python-IDE，带有一整套可以帮助用户在使用Python语言开发时提高其效率的工具，比如调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制。此外，该IDE提供了一些高级功能，以用于支持Django框架下的专业Web开发。安装及破解过程如下：" class="headerlink" title="pycharm是python语言一个很好的编译器，PyCharm是一种Python IDE，带有一整套可以帮助用户在使用Python语言开发时提高其效率的工具，比如调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制。此外，该IDE提供了一些高级功能，以用于支持Django框架下的专业Web开发。安装及破解过程如下："></a>pycharm是python语言一个很好的编译器，PyCharm是一种Python IDE，带有一整套可以帮助用户在使用Python语言开发时提高其效率的工具，比如调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制。此外，该IDE提供了一些高级功能，以用于支持Django框架下的专业Web开发。安装及破解过程如下：</h5><ul>
+<li>首先进入官网下载pycharm（<a href="http://www.jetbrains.com/pycharm/）" target="_blank" rel="external">http://www.jetbrains.com/pycharm/）</a><br>页面如下，点击download进入下载页面<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/1.png" alt="1.png" title=""></li>
+<li>选择自己需要的版本进行下载（这里选Windows专业版）<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/2.png" alt="2.png" title=""></li>
+<li>下载完成后直接双击下载好的exe文件进行安装，安装截图如下：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/3.png" alt="3.png" title=""></li>
+<li>点击Next进入下一步：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/4.png" alt="4.png" title=""></li>
+<li>点击Next进入下一步：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/5.png" alt="5.png" title=""></li>
+<li>点击Install进行安装：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/6.png" alt="6.png" title=""></li>
+<li>安装完成后出现下图界面，点级Finish结束安装：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/7.png" alt="7.png" title="">
+接下来是破解过程</li>
+<li>首次使用时会跳出如下界面：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/8.png" alt="8.png" title=""></li>
+<li>选择licence server进入这个网址获取注册码　<a href="http://idea.lanyus.com/" target="_blank" rel="external">http://idea.lanyus.com/</a><img src="/2017/11/10/python语言编辑工具pycharm的安装问题/9.png" alt="9.png" title=""></li>
+<li>激活成功，就会进入下面这个界面：<img src="/2017/11/10/python语言编辑工具pycharm的安装问题/10.png" alt="10.png" title=""></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/10/工作周报（20171104-20171110)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/10/工作周报（20171104-20171110)/" itemprop="url">工作周报（2017.11.04-2017.11.10)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-10T10:49:34+08:00">
+                2017-11-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一周工作简述"><a href="#一周工作简述" class="headerlink" title="一周工作简述"></a>一周工作简述</h3><h4 id="一：本周工作情况"><a href="#一：本周工作情况" class="headerlink" title="一：本周工作情况"></a>一：本周工作情况</h4><ol>
+<li>继续学习python基础和知识图谱相关知识</li>
+<li>学习了一个BBC的课程本体</li>
+<li>本体的相关语言的学习</li>
+</ol>
+<h4 id="二：-遇到的困难与问题"><a href="#二：-遇到的困难与问题" class="headerlink" title="二： 遇到的困难与问题"></a>二： 遇到的困难与问题</h4><ol>
+<li>python语言编辑工具pycharm的安装问题</li>
+<li>TTL文件格式用Apache Jena解析的问题</li>
+<li>google浏览器使用过程中显示你连接不是私密连接问题</li>
+</ol>
+<h4 id="三：下周工作计划"><a href="#三：下周工作计划" class="headerlink" title="三：下周工作计划"></a>三：下周工作计划</h4><ol>
+<li>不用任何语言对本体这个概念进行描述</li>
+<li>继续学习python语言和jena这个java包的使用问题</li>
+</ol>
+<h4 id="相关成果"><a href="#相关成果" class="headerlink" title="相关成果"></a>相关成果</h4><p><a href="http://pengxiao1012.cn/2017/11/10/python%E8%AF%AD%E8%A8%80%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7pycharm%E7%9A%84%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/" target="_blank" rel="external">pycharm的安装问题</a><br><a href="http://blog.csdn.net/px1012/article/details/78299098" target="_blank" rel="external">TTL文本解析的问题</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/02/hexo内容无法成功部署到github/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/02/hexo内容无法成功部署到github/" itemprop="url">hexo内容无法成功部署到github问题</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-02T14:56:30+08:00">
+                2017-11-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/solve/" itemprop="url" rel="index">
+                    <span itemprop="name">solve</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="在hexo的根目录下执行命令窗口hexo-d-部署内容到githhub时出现以下问题："><a href="#在hexo的根目录下执行命令窗口hexo-d-部署内容到githhub时出现以下问题：" class="headerlink" title="在hexo的根目录下执行命令窗口hexo d 部署内容到githhub时出现以下问题："></a>在hexo的根目录下执行命令窗口hexo d 部署内容到githhub时出现以下问题：</h4><p>fatal: could not read Username for ‘<a href="https://github.com" target="_blank" rel="external">https://github.com</a>‘: No error<br>FATAL Something’s wrong. Maybe you can find the solution here:<br>     <a href="http://hexo.io/do" target="_blank" rel="external">http://hexo.io/do</a> cs/troubleshooting.html<br>具体如下<br><img src="/2017/11/02/hexo内容无法成功部署到github/1.png" alt="1.png" title=""><br>此处报错的原因是因为:<br>无法识别设置的github用户名,是因为使用 SSH 连接，安全问题，要把Github添加到信任列表里。<br>解决方法如下：<br>在命令窗口输入：ssh -T git@github.com<br><img src="/2017/11/02/hexo内容无法成功部署到github/7.png" alt="7.png" title=""><br> 在Enter passphrase for key ‘/c/Users/Leon/.ssh/id_rsa’:<br> 后输入你之前设置的ssh密码（密码不会显示出来）<br> 显示</p>
+<pre><code>Hi px1012! You&apos;ve successfully authenticated, but GitHub does not     provide shell   access.
+</code></pre><p> 就表明成功了</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/02/工作周报-20171028-20171102/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/02/工作周报-20171028-20171102/" itemprop="url">工作周报（20171028-20171102)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-02T11:22:34+08:00">
+                2017-11-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="工作周报（2017-10-28-2017-11-02）"><a href="#工作周报（2017-10-28-2017-11-02）" class="headerlink" title="工作周报（2017.10.28-2017.11.02）"></a>工作周报（2017.10.28-2017.11.02）</h2><h3 id="一周工作简述"><a href="#一周工作简述" class="headerlink" title="一周工作简述"></a>一周工作简述</h3><h4 id="一：本周工作情况"><a href="#一：本周工作情况" class="headerlink" title="一：本周工作情况"></a>一：本周工作情况</h4><ol>
+<li>继续学习python基础和知识图谱相关课程</li>
+<li>学习本体构建相关支撑软件的使用</li>
+<li>对于本体语言owl的初步学习</li>
+<li>继续java语言和SpringBoot的学习</li>
+</ol>
+<h4 id="二：-遇到的困难与问题"><a href="#二：-遇到的困难与问题" class="headerlink" title="二： 遇到的困难与问题"></a>二： 遇到的困难与问题</h4><ol>
+<li>对于本体概念的理解<br>2.<a href="http://pengxiao1012.cn/2017/11/02/hexo%E5%86%85%E5%AE%B9%E6%97%A0%E6%B3%95%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2%E5%88%B0github/" target="_blank" rel="external">hexo内容同步到github出现无法成功部署到github的问题</a></li>
+</ol>
+<h4 id="三：下周工作计划"><a href="#三：下周工作计划" class="headerlink" title="三：下周工作计划"></a>三：下周工作计划</h4><ol>
+<li>继续学习python语言等其他基础的学习</li>
+<li>学习BBC课程本体库</li>
+</ol>
+<h4 id="相关成果"><a href="#相关成果" class="headerlink" title="相关成果"></a>相关成果</h4><p><a href="http://pan.baidu.com/s/1i4SH4bV" target="_blank" rel="external">本体相关语言的学习笔记</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/27/工作周报（20171021-20171027)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/27/工作周报（20171021-20171027)/" itemprop="url">工作周报（20171021-20171027)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-27T11:22:34+08:00">
+                2017-10-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="工作周报（2017-10-21-2017-10-27）"><a href="#工作周报（2017-10-21-2017-10-27）" class="headerlink" title="工作周报（2017.10.21-2017.10.27）"></a>工作周报（2017.10.21-2017.10.27）</h2><h3 id="一周工作简述"><a href="#一周工作简述" class="headerlink" title="一周工作简述"></a>一周工作简述</h3><h4 id="一：本周工作情况"><a href="#一：本周工作情况" class="headerlink" title="一：本周工作情况"></a>一：本周工作情况</h4><ol>
+<li>继续学习python基础</li>
+<li>开始学习知识图谱</li>
+<li>继续论文的研读和java语言和SpringBoot的学习</li>
+</ol>
+<h4 id="二：-遇到的困难与问题"><a href="#二：-遇到的困难与问题" class="headerlink" title="二： 遇到的困难与问题"></a>二： 遇到的困难与问题</h4><ol>
+<li>对ontology的相关理解问题</li>
+<li>制作python游戏中出现很多语法问题</li>
+</ol>
+<h4 id="三：下周工作计划"><a href="#三：下周工作计划" class="headerlink" title="三：下周工作计划"></a>三：下周工作计划</h4><ol>
+<li>继续学习python和SpringBoot等基础的学习</li>
+<li>学习知识图谱相关知识基础并继续学习一个ontology库</li>
+</ol>
+<h4 id="相关成果"><a href="#相关成果" class="headerlink" title="相关成果"></a>相关成果</h4><p><a href="https://github.com/px1012/px1012.github.io/blob/master/saoleiGame" target="_blank" rel="external">构建一个扫雷小游戏的主要代码</a></p>
+<h4 id="程序运行中常见问题"><a href="#程序运行中常见问题" class="headerlink" title="程序运行中常见问题"></a>程序运行中常见问题</h4><p><strong>  1.错误的使用缩进量。</strong><br>    导致“IndentationError：unexpected indent”、“IndentationError：unindent does not match any outer indetation level”以及“IndentationError：expected an indented block”<br>   记住缩进增加只用在以：结束的语句之后，而之后必须恢复到之前的缩进格式。该错误发生在如下代码中：<br>   <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"> print(<span class="string">'Hello!'</span>) </div><div class="line">print(<span class="string">'Howdy!'</span>) </div><div class="line">或者： </div><div class="line"><span class="keyword">if</span> spam == <span class="number">42</span>: </div><div class="line">print(<span class="string">'Hello!'</span>) </div><div class="line">print(<span class="string">'Howdy!'</span>) </div><div class="line">或者： </div><div class="line"><span class="keyword">if</span> spam == <span class="number">42</span>: </div><div class="line">print(<span class="string">'Hello!'</span>)</div></pre></td></tr></table></figure></p>
+<p><strong> 2.range函数的使用问题。</strong><br>python自带的range函数不能完成对小数做相应操作的功能，错误代码如下：<br> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#6 - draw the screen elements</span></div><div class="line">  screen.blit(player, playerpos)</div><div class="line">  <span class="keyword">for</span> x <span class="keyword">in</span> range  ( width/grass.get_width()+<span class="number">1</span>):</div><div class="line">      <span class="keyword">for</span> y  <span class="keyword">in</span> range (height/grass.get_height()+<span class="number">1</span>):</div></pre></td></tr></table></figure></p>
+<p><strong> 3.在 for 循环语句中忘记调用 len()</strong><br>    导致“TypeError: ‘list’ object cannot be interpreted as an integer”)<br>通常你想要通过索引来迭代一个list或者string的元素，这需要调用 range() 函数。要记得返回len 值而不是返回这个列表。 该错误发生在如下代码中：<br> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">spam = [<span class="string">'cat'</span>, <span class="string">'dog'</span>, <span class="string">'mouse'</span>] </div><div class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(spam): </div><div class="line">print(spam[i])</div></pre></td></tr></table></figure></p>
+<p><strong> 4.在定义局部变量前在函数中使用局部变量</strong><br>导致“UnboundLocalError: local variable ‘foobar’ referenced before assignment”错误。在函数中使用局部变来那个而同时又存在同名全局变量时是很复杂的，使用规则是：如果在函数中定义了任何东西，如果它只是在函数中使用那它就是局部的，反之就是全局变量。该错误发生在如下代码中：<br> <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">someVar = <span class="number">42</span> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">myFunction</span><span class="params">()</span>:</span> </div><div class="line">print(someVar) </div><div class="line">someVar = <span class="number">100</span> </div><div class="line">myFunction()</div></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/20/工作周报（20171014-20171020）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/20/工作周报（20171014-20171020）/" itemprop="url">工作周报（20171014-20171020）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-20T16:37:13+08:00">
+                2017-10-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="工作周报（2017-10-14-2017-10-20）"><a href="#工作周报（2017-10-14-2017-10-20）" class="headerlink" title="工作周报（2017.10.14-2017.10.20）"></a>工作周报（2017.10.14-2017.10.20）</h2><h3 id="一周工作简述"><a href="#一周工作简述" class="headerlink" title="一周工作简述"></a>一周工作简述</h3><h4 id="一：本周工作情况"><a href="#一：本周工作情况" class="headerlink" title="一：本周工作情况"></a>一：本周工作情况</h4><ol>
+<li>初步学习python基础</li>
+<li>开始学习SpringBoot</li>
+<li>继续论文的研读和java语言和spring的学习</li>
+</ol>
+<h4 id="二：-遇到的困难与问题"><a href="#二：-遇到的困难与问题" class="headerlink" title="二： 遇到的困难与问题"></a>二： 遇到的困难与问题</h4><ol>
+<li>python语言学习中对浅拷贝（copy）和深拷贝（deepcopy）的理解</li>
+<li>python语言学习中迭代器生成器的使用</li>
+<li>安装python软件时安装不成功</li>
+</ol>
+<h4 id="三：下周工作计划"><a href="#三：下周工作计划" class="headerlink" title="三：下周工作计划"></a>三：下周工作计划</h4><ol>
+<li>继续学习python和SpringBoot等基础的学习</li>
+<li>开始学习知识图谱相关知识基础并学习一个ontology库</li>
+</ol>
+<h4 id="相关成果"><a href="#相关成果" class="headerlink" title="相关成果"></a>相关成果</h4><p><a href="http://blog.csdn.net/px1012/article/details/78299098" target="_blank" rel="external">python安装过程问题解决方法</a></p>
+<h5 id="1-浅拷贝（copy）和深拷贝（deepcopy）"><a href="#1-浅拷贝（copy）和深拷贝（deepcopy）" class="headerlink" title="1.浅拷贝（copy）和深拷贝（deepcopy）"></a>1.浅拷贝（copy）和深拷贝（deepcopy）</h5><p>1）浅拷贝<br>只是拷贝了最外围对的对象本身，本身的内部元素都只是拷贝了一个引用。没有拷贝子对象，所以原始数据改变，子对象会改变。<br>2）深拷贝<br>deepcopy对外围和内部元素都进行了拷贝对象本身而不是对象的引用。原始对象的改变不会造成深拷贝里任何元素的改变<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> copy</div><div class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, [<span class="string">'a'</span>, <span class="string">'b'</span>]]  <span class="comment">#原始对象</span></div><div class="line">b = a  <span class="comment">#赋值，传对象的引用</span></div><div class="line">c = copy.copy(a)  <span class="comment">#对象拷贝，浅拷贝</span></div><div class="line">d = copy.deepcopy(a)  <span class="comment">#对象拷贝，深拷贝</span></div><div class="line">a.append(<span class="number">5</span>)  <span class="comment">#修改对象a</span></div><div class="line">a[<span class="number">4</span>].append(<span class="string">'c'</span>)  <span class="comment">#修改对象a中的['a', 'b']数组对象</span></div><div class="line"><span class="keyword">print</span> <span class="string">'a = '</span>, a</div><div class="line"><span class="keyword">print</span> <span class="string">'b = '</span>, b</div><div class="line"><span class="keyword">print</span> <span class="string">'c = '</span>, c</div><div class="line"><span class="keyword">print</span> <span class="string">'d = '</span>, d</div></pre></td></tr></table></figure></p>
+<p>  输出结果：</p>
+<pre><code>a =  [1, 2, 3, 4, [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;], 5]
+b =  [1, 2, 3, 4, [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;], 5]
+c =  [1, 2, 3, 4, [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]]
+d =  [1, 2, 3, 4, [&apos;a&apos;, &apos;b&apos;]]
+</code></pre><p>  a是原始对象，作为对照；<br>  b是a的引用，和a指向同一个对象；<br>  c是a的一个浅拷贝，将a的内容拷贝过来了，就是和a平行的两个对象了，但是里面元素如果是象，仅拷贝其引用，即a[4]变化后c[4]也对应变化了，因为他俩实际指向同一个对象，而a和c指不同的对象；<br>  d则是从头到尾全部拷贝过来，就连里面的对象也拷贝了一份，因此a[4]变化而d[4]没有变化，因为a[4]和d[4]在拷贝的时候值一样，但是其实已经是两个对象了。</p>
+<h5 id="2-迭代器和生成器"><a href="#2-迭代器和生成器" class="headerlink" title="2.迭代器和生成器"></a>2.迭代器和生成器</h5><p>1）迭代器<br>  迭代器是访问集合元素的一种方式。迭代器对象从集合的第一个元素开始访问，知道所有的元素被访问完结束。迭代器只能往前不会后退。<br> 迭代器更大的功劳是提供了一个统一的访问集合的接口，只要定义了<strong>iter</strong>()方法对象，就可以使用迭代器访问。<br>迭代器有两个基本的方法<br>next方法：返回迭代器的下一个元素<br><strong>iter</strong>方法：返回迭代器对象本身<br>下面举一个生成斐波那契数列的例子<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Fibs</span>:</span></div><div class="line">     def_init_(self):</div><div class="line">	 self.a=<span class="number">0</span></div><div class="line">	 self.b=<span class="number">1</span></div><div class="line">	 <span class="function"><span class="keyword">def</span> <span class="title">next</span><span class="params">(self)</span>:</span></div><div class="line">	 self.a.self.b=self.b.self.a+self.b</div><div class="line">	 <span class="keyword">return</span> self.a</div><div class="line">	 def_iter_(self):</div><div class="line">	 <span class="keyword">return</span> self</div><div class="line"> &gt;&gt;&gt;fibs=Fibs()</div><div class="line"><span class="comment">#可在for循环中使用该对象——比如去查找在斐波那契数列中比1000大的数中的最小的数：</span></div><div class="line">&gt;&gt;&gt;<span class="keyword">for</span> f <span class="keyword">in</span> fibs:</div><div class="line">	          <span class="keyword">if</span> f&gt;<span class="number">1000</span>:</div><div class="line">	          printf f</div><div class="line">	          <span class="keyword">break</span></div></pre></td></tr></table></figure></p>
+<p>2)生成器<br>  带有 yield 的函数在 Python 中被称之为 generator（生成器）<br>  <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">fab</span><span class="params">(max)</span>:</span></div><div class="line">    n, a, b = <span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span></div><div class="line">    <span class="keyword">while</span> n &lt; max:</div><div class="line">        <span class="keyword">yield</span> b</div><div class="line">        a, b = b, a + b</div><div class="line">        n = n + <span class="number">1</span></div><div class="line">执行</div><div class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">for</span> n <span class="keyword">in</span> fab(<span class="number">5</span>):</div><div class="line">         <span class="keyword">print</span> n</div></pre></td></tr></table></figure></p>
+<p>  简单地讲，yield 的作用就是把一个函数变成一个 generator，带有 yield 的函数不再是一个普通函数，Python 解释器会将其视为一个 generator，调用 fab(5) 不都会执会执行 fab 函数，而是返回一个 iterable 对象！在 for 循环执行时，每次循环行 fab 函数内部的代码，执行到 yield b 时，fab 函数就返回一个迭代值，下次迭代时，代码从 yield b 的下一条语句继续执行，而函数的本地变量看起来和上次中断执行前是完全一样的，于是函数继续执行，直到再次遇到 yield。看起来就好像一个函数在正常执行的过程中被 yield 中断了数次，每次中断都会通过 yield 返回当前的迭代值</p>
+<h4 id="上周说这周要推荐的好用在线编写markdow的编辑器链接如下："><a href="#上周说这周要推荐的好用在线编写markdow的编辑器链接如下：" class="headerlink" title="上周说这周要推荐的好用在线编写markdow的编辑器链接如下："></a>上周说这周要推荐的好用在线编写markdow的编辑器链接如下：</h4><p> <a href="https://pandao.github.io/editor.md/" target="_blank" rel="external">https://pandao.github.io/editor.md/</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/12/工作周报（20171007-20171013）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/12/工作周报（20171007-20171013）/" itemprop="url">工作周报（20171007-20171013）</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-12T18:23:31+08:00">
+                2017-10-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="工作周报（20171007-20171013）"><a href="#工作周报（20171007-20171013）" class="headerlink" title="工作周报（20171007-20171013）"></a>工作周报（20171007-20171013）</h1><h2 id="一-一周工作简述"><a href="#一-一周工作简述" class="headerlink" title="一:一周工作简述"></a>一:一周工作简述</h2><h4 id="1-本周工作情况"><a href="#1-本周工作情况" class="headerlink" title="1.本周工作情况"></a>1.本周工作情况</h4><p>1）本周主要是继续学习了String框架的知识为学StringBoot打下基础<br>2）学习了markdow语言的一些特点，完善博客的美化<br>3）继续阅读人工智能的相关论文和阅读书籍《深入理解JavaWeb开发技术》</p>
+<h4 id="2-遇到困难与问题"><a href="#2-遇到困难与问题" class="headerlink" title="2. 遇到困难与问题"></a>2. 遇到困难与问题</h4><p>在学习中主要遇到以下困难：<br>1）如何在写技术博客时插入图片<br>2）初学string遇到一些类用法的困惑</p>
+<h4 id="3-下周工作计划"><a href="#3-下周工作计划" class="headerlink" title="3. 下周工作计划"></a>3. 下周工作计划</h4><p>1）继续框架和论文的学习<br>2）开始学习python语言</p>
+<h2 id="二：相关成果"><a href="#二：相关成果" class="headerlink" title="二：相关成果"></a>二：相关成果</h2><p> <a href="http://blog.csdn.net/px1012/article/details/78230192" target="_blank" rel="external">如何在.md文件中插入图片</a><br> <a href="http://pan.baidu.com/s/1o8kM5gI" target="_blank" rel="external">string学习笔记</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/08/The-second-studying-note/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="pengxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/px.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Note">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/08/The-second-studying-note/" itemprop="url">The second studying note</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-08T19:08:16+08:00">
+                2017-10-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Thinking/" itemprop="url" rel="index">
+                    <span itemprop="name">Thinking</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>第二周学习笔记<br>本周主要列举一些学习经验（hexo+github小白的学习之路，不正确的地方望指出）<br>1：如何更换主题（由默认的Landscape主题更换为我现在的主题next为例）<br>1）下载next主题<br>在hexo安装目录下用Git Bash here进入命令框输入以下命令下载next主题<br>git clone <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">https://github.com/iissnan/hexo-theme-next</a> themes/next<br>2)运用next主题<br>进入Hexo文件夹下打开配置文件_config.yml,找到theme字段，将其改为next<br>3）本地验证主题<br>hexo目录下，输入hexo s -debug进行调试，<br>此时本地浏览器输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 就能预览到该主题的默认效果<br>4）菜单项的设定<br>Themes目录下的config.yml配置文件，打开，其中menu节点，将几个注释都给去掉，<br>本地浏览器刷新看看博客首页菜单的变化，多试几次看看变化，改成自己喜欢的菜单<br>我是将所有注释都去掉了，代码如下<br>menu:<br>  home: / || home<br>  about: /about/ || user<br>  tags: /tags/ || tags<br>  categories: /categories/ || th<br>  archives: /archives/ || archive<br>  schedule: /schedule/ || calendar<br>  sitemap: /sitemap.xml || sitemap<br>  commonweal: /404/ || heartbeat<br>2：主页添加自己的头像（这里我遇到了一些问题）<br>在Hexo/source目录下新建文件夹uploads,将自己图片放入，在next/config.yml文件中搜索avatar，<br>将其前面注释去掉，更改图片路径为/uploads/px.jpg(自己的图片名，包括后缀都区分大小写)</p>
+<h1 id="Sidebar-Avatar"><a href="#Sidebar-Avatar" class="headerlink" title="Sidebar Avatar"></a>Sidebar Avatar</h1><h1 id="in-theme-directory-source-images-images-avatar-jpg"><a href="#in-theme-directory-source-images-images-avatar-jpg" class="headerlink" title="in theme directory(source/images): /images/avatar.jpg"></a>in theme directory(source/images): /images/avatar.jpg</h1><h1 id="in-site-directory-source-uploads-uploads-avatar-jpg"><a href="#in-site-directory-source-uploads-uploads-avatar-jpg" class="headerlink" title="in site  directory(source/uploads): /uploads/avatar.jpg"></a>in site  directory(source/uploads): /uploads/avatar.jpg</h1><h1 id="default-images-default-avatar-jpg"><a href="#default-images-default-avatar-jpg" class="headerlink" title="default : /images/default_avatar.jpg"></a>default : /images/default_avatar.jpg</h1><p>avatar: /uploads/px.jpg<br>作者和简述<br>打开Hexo/config.yml，里面author改为自己的名称，description可填写自己喜欢的一句话，保存刷新即可看到效果。 </p>
+<h1 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h1><p>title: Note<br>subtitle:<br>description: studying note<br>author: pengxiao<br>language: zh-Hans//语言显示为中文<br>timezone:<br>注：若图片老是添加不成功，可尝试以下解决方法<br>1）avatar: /uploads/px.jpg 这句代码里冒号后要有空格<br>2）图片路径是否正确（可查看一下网页的源代码，看看路径文件名是否正确）<br>若需要修改.html文件，去仓库下载index.html文件解压修改后再上传到仓库<br>3）图片大小修改下可能太大<br>3：将更新部署到GitHub<br>在Hexo 目录下依次执行以下命令:<br>hexo clean<br>hexo generate<br>hexo server (若是想本地预览和执行该命令预览)<br>hexo deploy</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/px.jpg"
+                alt="pengxiao" />
+            
+              <p class="site-author-name" itemprop="name">pengxiao</p>
+              <p class="site-description motion-element" itemprop="description">studying note</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/pengxiao" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">pengxiao</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
